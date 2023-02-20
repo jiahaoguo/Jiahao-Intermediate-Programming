@@ -9,7 +9,8 @@ public class CursorManager : MonoBehaviour
     public CursorMode cursorMode = CursorMode.Auto;
     public Vector2 hotSpot = Vector2.zero;
     public GameObject hitParticle;
-
+    public GameObject turretBase;
+    public GameObject turret2;
 
 
     // Start is called before the first frame update
@@ -43,6 +44,17 @@ public class CursorManager : MonoBehaviour
                     }
                     SoundManager.Instance.sdHit.Play();
                 }
+
+                if (hit.transform.CompareTag("turretBase"))
+                {
+                    if (hit.transform.gameObject.GetComponent<turretBase>().occupied == false)
+                    {
+                        var a = Instantiate(turret2, hit.transform.position, transform.rotation);
+                        
+                        hit.transform.gameObject.GetComponent<turretBase>().occupied = true;
+                    }
+                }
+
             }
         }
     }

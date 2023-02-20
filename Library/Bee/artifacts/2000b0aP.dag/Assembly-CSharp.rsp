@@ -273,8 +273,8 @@
 -r:"/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
--r:"/System/Volumes/Data/1hao/三次元/游戏设计/programming for games/Navigation System HW/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
--r:"/System/Volumes/Data/1hao/三次元/游戏设计/programming for games/Navigation System HW/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"/System/Volumes/Data/1hao/三次元/游戏设计/programming for games/Navigation System HW/Week 3 Nav HW/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"/System/Volumes/Data/1hao/三次元/游戏设计/programming for games/Navigation System HW/Week 3 Nav HW/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.Services.Core.Environments.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.Services.Core.ref.dll"
@@ -284,6 +284,7 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/script/bullet2.cs"
 "Assets/script/CursorManager.cs"
 "Assets/script/DestroyOnExit.cs"
 "Assets/script/Enemy.cs"
@@ -292,6 +293,9 @@
 "Assets/script/hitParticle.cs"
 "Assets/script/LookingAtCamera.cs"
 "Assets/script/SoundManager.cs"
+"Assets/script/turret2.cs"
+"Assets/script/turretBase.cs"
+"Assets/script/turretLookAt.cs"
 -langversion:9.0
 
 /deterministic

@@ -64,6 +64,10 @@
     <Compile Include="Assets/script/Enemy.cs" />
     <Compile Include="Assets/script/hitParticle.cs" />
     <Compile Include="Assets/script/Generator.cs" />
+    <Compile Include="Assets/script/turretLookAt.cs" />
+    <Compile Include="Assets/script/turretBase.cs" />
+    <Compile Include="Assets/script/turret2.cs" />
+    <Compile Include="Assets/script/bullet2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

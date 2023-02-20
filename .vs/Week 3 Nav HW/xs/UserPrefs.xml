@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{04DFEBBA-0060-FA06-D32E-FB90512F4651}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="245ef344-fe4e-4a02-8823-a3e55adc0228" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/LookingAtCamera.cs">
+    <Files>
+      <File FileName="Assets/script/Enemy.cs" />
+      <File FileName="Assets/script/LookingAtCamera.cs" Line="23" Column="3" />
+      <File FileName="Assets/script/turretLookAt.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Week 3 Nav HW" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="script" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

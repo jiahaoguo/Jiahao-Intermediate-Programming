@@ -329,6 +329,7 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/script/bullet2.cs"
 "Assets/script/CursorManager.cs"
 "Assets/script/DestroyOnExit.cs"
 "Assets/script/Enemy.cs"
@@ -337,6 +338,9 @@
 "Assets/script/hitParticle.cs"
 "Assets/script/LookingAtCamera.cs"
 "Assets/script/SoundManager.cs"
+"Assets/script/turret2.cs"
+"Assets/script/turretBase.cs"
+"Assets/script/turretLookAt.cs"
 -langversion:9.0
 
 /deterministic

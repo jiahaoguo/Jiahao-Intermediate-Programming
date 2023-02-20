@@ -3,11 +3,15 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CursorManager
     - DestroyOnExit
-    - Eddy.Utilities.LookingAtCamera
     - Enemy
     - Generator
     - Health
+    - LookingAtCamera
     - SoundManager
+    - bullet2
+    - turret2
+    - turretBase
+    - turretLookAt
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -19,8 +23,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -135,6 +141,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6454}
     - Class: 114
       Script: {instanceID: 6668}
+    - Class: 114
+      Script: {instanceID: 24972}
+    - Class: 114
+      Script: {instanceID: 40912}
+    - Class: 114
+      Script: {instanceID: 41258}
+    - Class: 114
+      Script: {instanceID: 41978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -222,7 +236,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: Eddy.Utilities
+    namespaceName: 
     className: LookingAtCamera
   - hash:
       serializedVersion: 2
@@ -550,7 +564,7 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
-      Hash: c4af8360d71edb5a8428bb40a1c5d691
+      Hash: cff1764fdd98a80ef8d954d963141039
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CursorManager
@@ -980,7 +994,31 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a53dbee47c14afbe8548a4c45f9724ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: turretLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 0782ab7a8b9583f0bedada391a0363e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: turretBase
+  - hash:
+      serializedVersion: 2
+      Hash: 3dff9e773f100de334f6d8d20816f9fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: turret2
+  - hash:
+      serializedVersion: 2
+      Hash: 45f52f3060cf66c9c75ee90a2a02f542
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: bullet2
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/yangyang/Downloads/NavHW1.2
+  playerPath: /Users/yangyang/Downloads/Build1.1
