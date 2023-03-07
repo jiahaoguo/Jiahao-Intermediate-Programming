@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{417EDF29-B04F-15F6-1F71-3547AF9F5499}</ProjectGuid>
+    <ProjectGuid>{070C95DF-6824-C5D9-12F0-653638619DCA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Device</AssemblyName>
@@ -635,11 +635,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Internal.Player.csproj">
-      <Project>{9AC19470-0231-FA6F-2B9A-EF5C0CF6C9EB}</Project>
+      <Project>{4686306E-779E-5249-1544-5B9F9B992E49}</Project>
       <Name>Unity.Services.Core.Internal.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{B58A91BD-C24D-036A-1A7E-9C79E607E374}</Project>
+      <Project>{E9E43C0A-C49E-953B-A076-C6587E2AAC5C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

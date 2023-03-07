@@ -167,7 +167,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6879671522693246714}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -227,8 +227,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3096cec627ec4e1b82c01532ca323d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 5
-  turret2: {fileID: 6879671523126405280}
+  detectionRadius: 4
+  turret: {fileID: 6879671523126405280}
+  id: 2
+  lookAtEnemy: 1
 --- !u!1 &6879671523126405280
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7637ac04bd5b84b87a6582ae8ef195c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackGap: 1
+  attackGap: 0.7
   firePoint: {fileID: 5415541606813693854}
   bullet: {fileID: 3866163749620792863, guid: fb4beb67198ff4296b1e800727ba8c20, type: 3}
   targetEnemy: {fileID: 0}

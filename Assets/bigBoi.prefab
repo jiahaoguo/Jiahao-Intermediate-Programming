@@ -114,9 +114,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2657f9eec38c14769b7fb0e3b4219d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attack: 15
+  attack: 40
   moveSpeed: 1.5
-  health: 130
+  health: 200
+  slowness: 0
+  slownessCounter: 0
   anim: {fileID: 2078192195898396939}
   target: {fileID: 0}
 --- !u!195 &3353363865737342149

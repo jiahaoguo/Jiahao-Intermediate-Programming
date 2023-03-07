@@ -6,8 +6,11 @@ using static UnityEngine.GraphicsBuffer;
 public class turretLookAt : LookingAtCamera
 {
     public float detectionRadius;
-    public GameObject turret2;
+    public GameObject turret;
+    public int id;
     private GameObject nearestObject;
+    [SerializeField]
+    bool lookAtEnemy = false;
 
     // Start is called before the first frame update
     protected override void Start()
@@ -33,14 +36,28 @@ public class turretLookAt : LookingAtCamera
             {
                 nearestObject = objectWithTag;
                 nearestDistance = distance;
-                turret2.GetComponent<turret2>().targetEnemy = nearestObject;
+                if (id == 2)
+                {
+                    turret.GetComponent<turret2>().targetEnemy = nearestObject;
+                }
+                else if (id == 3)
+                {
+                    turret.GetComponent<turret3>().targetEnemy = nearestObject;
+                }
+                else if (id == 5)
+                {
+                    turret.GetComponent<turret5>().targetEnemy = nearestObject;
+                }
             }
         }
 
         // If there is a nearest object, rotate towards it
         if (nearestObject != null)
         {
-            transform.LookAt(nearestObject.transform);
+            if (lookAtEnemy)
+            {
+                transform.LookAt(nearestObject.transform);
+            }
         }
     }
 
